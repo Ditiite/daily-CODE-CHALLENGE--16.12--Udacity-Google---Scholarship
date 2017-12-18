@@ -20,27 +20,47 @@ body {
     left: 0;
     background-color: #2f4356;
     overflow-x: hidden;
-    padding-top: 20px;
-   
+    position: fixed;    
+    overflow: hidden;
+    box-shadow: 3px 3px 13px silver;   
 }
+ 
 
 .sidenav a {
-    padding: 10px;
+    border-bottom: 2px solid white;
+    padding: 25px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 13px;
     display: block;
     color: white;
     text-transform: uppercase; 
+    text-align: center;
+    letter-spacing: 1.5px;
 }
 
 .logo {
-    height: 150px;
+    height: 180px;
+    background-color: #ff6026;
+    letter-spacing: 1.5px;
+    font-size: 25px !important;
+    padding-top: 40% !important;
+    border-bottom: none !important;
+}
+
+.go {
+    color: #2f4356;
+    font-weight: bold;
 }
 
 .nav-height {
-    height: 15%;
+    height: calc(100% / 6);
 }
 
+.story-icon {
+    font-size: 40px;
+    color: white;
+    margin: 15px auto;
+}
 /**********************
 ***** MAIN SECTION*****
 **********************/
