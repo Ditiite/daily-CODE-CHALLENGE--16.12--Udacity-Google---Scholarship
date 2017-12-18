@@ -1,3 +1,7 @@
+body {
+    width: 100vw;
+    font-family: "raleway";
+}
 /***********************
 ***** SIDE NAVIGATOR ***
 ***********************/
@@ -30,12 +34,14 @@
 .nav-height {
     height: 15%;
 }
+
 /**********************
 ***** MAIN SECTION*****
 **********************/
 .main {
     margin-left: 160px;
     height: 100%;
+    overflow: hidden;
 }
 
 /***************
@@ -46,30 +52,38 @@
 .image-text {
     width: 50%;    
     text-align: center;
-    border: 1px solid black;
-    height: 100vh;
-    position: relative;
-    }
+    height: 100vh;    
+}
 
 #story {
-    height: 100%;
+    height: 100%;    
+    overflow: hidden;
 }
-
 .image-text {
     float: right;
-    padding: 50px;
-    background-image: url(https://static.pexels.com/photos/450597/pexels-photo-450597.jpeg);
+    background-image: url(../image/large.jpg);
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover; 
+    position: relative;
+}
+
+.text  { 
+    background-color: rgba(49, 69, 89, 0.6);
+    height: 100vh;
+}
+
+.text p {
     color: white;
-}
-.image-text p {
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
-    top: 40%;
+    top: 30%;  
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-
+.bold {
+    font-weight: bold;
+}
 
 
 
