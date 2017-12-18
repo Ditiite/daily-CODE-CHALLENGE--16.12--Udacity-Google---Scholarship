@@ -8,7 +8,7 @@
 ***** MAIN SECTION*****
 **********************/
 .main {
-    margin-left: 160px;
+    margin-left: 150px;
 }
 
 body {
@@ -43,7 +43,7 @@ body {
     overflow-x: hidden;
     position: fixed;    
     overflow: hidden;
-    box-shadow: 3px 3px 13px silver;   
+    box-shadow: 3px 3px 13px #3B3B3B;   
 }
  
 
@@ -137,13 +137,13 @@ body {
 **** I.L.L.U..What?****
 **********************/
 .row {
-    margin-right: 0;
+    margin-right: 0 0 0 10px;
 }
 
 .title-second {
     border: 1px solid silver;
     height: 180px;
-    margin: 0 10px 0 0;
+    margin: 0 10px;
     background-color: #e74c3c;
     widows: 100%;
     color: white;
@@ -184,6 +184,60 @@ body {
     margin: 20px 70px;
     line-height: 75px;
     color: black;
+}
+
+/**********************
+***** SURPRISE ********
+**********************/
+.surprise {
+    color: #2f4356;
+    text-transform: uppercase;
+    font-size: 180px; 
+    text-align: center;
+    width: 100%;
+    background-color: #2f4356;    
+    padding-top: 100px;
+    transition: 1s;
+}
+.surprise:hover {
+    text-shadow: 3px 3px 3px white;
+}
+
+#surprise .row {
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#surprise h3 {    
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1;
+}
+.man{
+   width: 300px;
+}
+
+.man-text {
+    font-size: 22px;
+    padding: 10px 50px;
+}
+
+.starks {
+    float: left;
+    width: 300px;
+    margin-top: -50px;
+    z-index: -1;
+}
+.big-red {
+    color: #e74c3c;
+    font-size: 70px;
+}
+.procent-games {
+    font-size: 25px;   
+    background-image: url(image/starks1.jpg);
 }
 /*************
 *** @MEDIA ***
