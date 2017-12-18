@@ -1,3 +1,9 @@
+/**
+* nav background color, Story title color     : #2f4356;
+*
+*
+*
+*/
 body {
     width: 100vw;
     font-family: "raleway";
@@ -85,7 +91,22 @@ body {
     font-weight: bold;
 }
 
+/****** Story Title ****/
+.story-title {
+    color: #2f4356;
+    text-transform: uppercase;
+    padding-top: 15%;
+}
 
+.story-title h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.story-title p {
+    padding-top: 30%;
+    font-size: 20px;
+}
 
 /*************
 *** @MEDIA ***
