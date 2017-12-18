@@ -1,1 +1,82 @@
+/***********************
+***** SIDE NAVIGATOR ***
+***********************/
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2f4356;
+    overflow-x: hidden;
+    padding-top: 20px;
+   
+}
 
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-transform: uppercase; 
+}
+
+.logo {
+    height: 150px;
+}
+
+.nav-height {
+    height: 15%;
+}
+/**********************
+***** MAIN SECTION*****
+**********************/
+.main {
+    margin-left: 160px;
+    height: 100%;
+}
+
+/***************
+***** STORY ****
+***************/
+
+.story-title,
+.image-text {
+    width: 50%;    
+    text-align: center;
+    border: 1px solid black;
+    height: 100vh;
+    position: relative;
+    }
+
+#story {
+    height: 100%;
+}
+
+.image-text {
+    float: right;
+    padding: 50px;
+    background-image: url(https://static.pexels.com/photos/450597/pexels-photo-450597.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    color: white;
+}
+.image-text p {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+}
+
+
+
+
+
+/*************
+*** @MEDIA ***
+*************/
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
