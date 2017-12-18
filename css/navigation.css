@@ -1,0 +1,54 @@
+
+/***********************
+***** SIDE NAVIGATOR ***
+***********************/
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2f4356;
+    overflow-x: hidden;
+    position: fixed;    
+    overflow: hidden;
+    box-shadow: 3px 3px 13px #3B3B3B;   
+}
+ 
+
+.sidenav a {
+    border-bottom: 2px solid white;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    color: white;
+    text-transform: uppercase; 
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.logo {
+    height: 180px;
+    background-color: #e74c3c;
+    letter-spacing: 1.5px;
+    font-size: 25px !important;
+    padding-top: 40% !important;
+    border-bottom: none !important;
+}
+
+.go {
+    color: #2f4356;
+    font-weight: bold;
+}
+
+.nav-height {
+    height: calc(100% / 6);
+}
+
+.story-icon {
+    font-size: 40px;
+    color: white;
+    margin: 15px auto;
+}

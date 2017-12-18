@@ -1,0 +1,73 @@
+
+/**********************
+***** SURPRISE ********
+**********************/
+.surprise {
+    color: #2f4356;
+    text-transform: uppercase;
+    font-size: 180px; 
+    text-align: center;
+    width: 100%;
+    background-color: #2f4356;    
+    padding-top: 100px;
+    transition: 1s;
+}
+.surprise:hover {
+    text-shadow: 3px 3px 3px white;
+}
+
+#surprise .row {
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/***** MAN statistics ****/
+#statistics h3 {    
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1;
+}
+.col-4 {
+    margin: 0;
+    padding: 0;
+}
+.man{
+   width: 300px;
+}
+
+.man-text {
+    font-size: 22px;
+    padding: 10px 50px;
+}
+
+/***** STARKS *****/
+
+.starks {
+    font-size: 25px;   
+    background-image: url(../image/stark-1.png);
+    background-repeat: no-repeat;
+    margin-left: 50px; 
+    margin-top: 30px;
+    display: inline-block
+}
+
+.big-red {
+    color: #e74c3c;
+    font-size: 70px;    
+}
+
+.bigger {
+    font-size: 35px;
+}
+
+.procent-games {
+    float: right;
+    margin-top: 110px !important;
+    padding-right: 120px;
+    line-height: 40px;
+}
