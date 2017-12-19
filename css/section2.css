@@ -174,3 +174,23 @@
     float: right;
     margin: 70px;
 }
+
+/***********************
+******** FOOTER ********
+***********************/
+footer {
+    text-align: center;
+    height: 50px;
+    background-color: #2f4356;
+    padding: 10px;
+}
+footer a {
+    margin: 20px;
+    color: black;
+    
+}
+
+footer a:hover {
+    color: #e74c3c;
+    text-decoration: none;
+}
