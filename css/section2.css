@@ -36,13 +36,13 @@
     margin: 0;
     padding: 0;
 }
-.man{
-   width: 300px;
+.people {
+    margin-top: 30px;
 }
 
 .man-text {
     font-size: 22px;
-    padding: 10px 50px;
+    padding: 0 50px 10px 50px;
 }
 
 /***** STARKS *****/
@@ -65,9 +65,22 @@
     font-size: 35px;
 }
 
+.stark-p {
+    font-size: 22px;
+}
 .procent-games {
     float: right;
     margin-top: 110px !important;
     padding-right: 120px;
     line-height: 40px;
+}
+
+/********** Dragon *********/
+
+.dragon img {
+    width: 150px;
+}
+.dragon p {
+    font-size: 22px;
+    padding: 10px 50px;
 }
