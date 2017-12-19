@@ -11,6 +11,7 @@
     background-color: #2f4356;    
     padding-top: 100px;
     transition: 1s;
+    padding-left: 10px;
 }
 .surprise:hover {
     text-shadow: 3px 3px 3px white;
@@ -19,7 +20,7 @@
 #surprise .row {
     height: 50vh;
     width: 100%;
-    margin: 0;
+    margin-right: 0;
     text-align: center;
 }
 
@@ -35,6 +36,7 @@
 .col-4 {
     margin: 0;
     padding: 0;
+    width: 33%;
 }
 .people {
     margin-top: 30px;
@@ -83,4 +85,92 @@
 .dragon p {
     font-size: 22px;
     padding: 10px 50px;
+}
+
+
+/***************************
+******** AUTHOR ************
+***************************/
+
+.author-text h1 {
+    font-size: 40px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.author-text p {
+    font-size: 15px;
+    position: absolute;
+    top:60%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.author-text {
+    background-image: url(../image/author-text.jpeg);
+    background-repeat:  no-repeat;
+    background-size: cover; 
+    position: relative;
+    text-align: center;
+}
+
+.author-background-color  { 
+    background-color: rgba(250,250, 250, 0.4);
+    height: 100vh;
+    width: 100%;
+}
+
+/****** CONTACT *****/
+.contact {
+    float: right;
+    font-size: 30px;
+}
+.contact h3 {
+    font-size: 50px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.media {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #2f4356;
+    position: relative;
+    margin-top: 50px !important;
+    margin-left: 70px;
+}
+
+.media .fa-globe,
+.media .fa-phone {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 23%;
+    transform: translateY(-50%);
+}
+
+.media .fa-facebook {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+}
+
+.media .fa-envelope {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 49%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+.contact a {
+    float: right;
+    margin: 70px;
 }

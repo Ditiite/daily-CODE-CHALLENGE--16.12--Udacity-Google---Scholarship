@@ -9,18 +9,21 @@
 **********************/
 .main {
     margin-left: 150px;
+    height: 100vh; 
 }
 
 body {
     width: 100%;
     font-family: "raleway";
+    margin: 0;
+    padding: 0;
 }
 #story,
 #what,
 #surprise,
 #statistics,
 #author {
-    height: 100vh;  
+    height: 100vh; 
 }
 
 .col-6 {
@@ -32,9 +35,7 @@ body {
 /***************
 ***** STORY ****
 ***************/
-.main {    
-    height: 100vh; 
-}
+
 .image-text {
     float: right;
     background-image: url(../image/large.jpg);
@@ -82,7 +83,7 @@ body {
 /***********************
 **** I.L.L.U..What?****
 **********************/
-.row {
+#what .row {
     margin-right: 0 0 0 10px;
 }
 
