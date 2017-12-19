@@ -52,3 +52,7 @@
     color: white;
     margin: 15px auto;
 }
+
+.sidenav a:hover {
+    background-color: #374f68;
+}
